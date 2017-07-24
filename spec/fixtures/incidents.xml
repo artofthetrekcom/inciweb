@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+cached data at 01:51:11
+cached id 76aaeee55f1a2cd366a5162c3f82fb79
+-->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <channel>
+    <atom:link href="https://inciweb.nwcg.gov/feeds/rss/incidents/" rel="self" type="application/rss+xml" />
+    <title>InciWeb National Incidents</title>
+    <link>https://inciweb.nwcg.gov</link>
+    <description>Latest incident updates nationally</description>
+    <pubDate>Mon, 24 Jul 2017 01:51:11 -05:00</pubDate>
+    <language>en-us</language>
+    <item>
+      <title>Whetstone Ridge Fire</title>
+      <published>Mon, 24 Jul 2017 00:00:34 -05:00</published>
+      <pubDate>Mon, 24 Jul 2017 00:00:34 -05:00</pubDate>
+      <georss:point>46.048888888889 -113.64666666667</georss:point>
+      <geo:lat>46.048888888889</geo:lat>
+      <geo:long>-113.64666666667</geo:long>
+      <link>https://inciweb.nwcg.gov/incident/5363/</link>
+      <guid isPermaLink="true">https://inciweb.nwcg.gov/incident/5363/</guid>
+      <description>  The fire was relatively quiet yesterday but smoke was visible in the Georgetown Lake and Philipsburg communities. A spot was discovered ½ mile east of the main fire perimeter. Helicoptors dropped several buckets of water to slow down spots outside the perimeter. Structures were assessed for structure protection in Frog Pond Basin. The predicted weather for today is to be hotter and drier with calmer winds. A new Area Closure was implemented for the Whetsone Ridge and Meyers Fires. Lakes affected by the Closure are Kaiser Lake, Moose Lake, Whetstone Lake and Green Canyon Lake. Moose Lake Road #5106 is open to local traffic only and Ross Fork Road #70 is closed south of Milo Lake. The Copper Creek Road #80 is closed at the junction with Moose Lake Road #5106 and Copper Creek Campground is closed.  For a detailed description and map of the Area Closure, go online to go to http://inciweb.nwcg.gov/    The temporary flight restriction (TFR) has been enlarged significantly to encompass...</description>
+    </item>
+    <item>
+      <title>Cedar Mountain Fire (Wildfire)</title>
+      <published>Fri, 21 Jul 2017 10:51:17 -05:00</published>
+      <pubDate>Fri, 21 Jul 2017 10:51:17 -05:00</pubDate>
+      <georss:point>40.705 -112.955</georss:point>
+      <geo:lat>40.705</geo:lat>
+      <geo:long>-112.955</geo:long>
+      <link>https://inciweb.nwcg.gov/incident/5391/</link>
+      <guid isPermaLink="true">https://inciweb.nwcg.gov/incident/5391/</guid>
+      <description>On Monday, July 17 at 1914, an active lightning storm traveled across the Cedar Mountains starting several fires. Crew were dispatched and were successful in quickly extinguishing some of the fires. The remaining fires grew together and formed the Cedar Mountain fire. It is being commanded by the Onaqui Mountain Complex Incident Management Team.</description>
+    </item>
+    <item>
+      <title>Onaqui Mountain Complex (Wildfire)</title>
+      <published>Fri, 21 Jul 2017 10:02:46 -05:00</published>
+      <pubDate>Fri, 21 Jul 2017 10:02:46 -05:00</pubDate>
+      <georss:point>40.181666666667 -112.54611111111</georss:point>
+      <geo:lat>40.181666666667</geo:lat>
+      <geo:long>-112.54611111111</geo:long>
+      <link>https://inciweb.nwcg.gov/incident/5381/</link>
+      <guid isPermaLink="true">https://inciweb.nwcg.gov/incident/5381/</guid>
+      <description> 07/21/17Last update pending any significant events or change in fire behavior. On Sunday, July 16 at around 1700, an active lightning storm traveled across the Onaqui (on-ah-key) Mountains starting several fires. Crew were dispatched and were successful in quickly extinguishing some of the fires, while others continued to grow. With many incidents around the state, managers are treating these individual fires as one large incident (a complex) in an effort to be efficient and effective with limited</description>
+    </item>
+  </channel>
+</rss>

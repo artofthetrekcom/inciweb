@@ -1,5 +1,6 @@
 require "uri"
 require "net/http"
+require "inciweb/response"
 
 module Inciweb
   class Request

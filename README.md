@@ -12,6 +12,14 @@ gem "inciweb", path: "lib/inciweb"
 
 ## Usage
 
+### List Incidents
+
+This gem provides a very easier way to retrieve the list of recent incidents,
+and we can retrieve those using the following interface.
+
+```ruby
+Inciweb::Incident.all
+```
 
 ## Development
 
