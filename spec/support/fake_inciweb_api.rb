@@ -4,6 +4,12 @@ module Inciweb
       stub_api_response("feeds/rss/incidents/", filename: "incidents.xml")
     end
 
+    def stub_incident_find_api_call(incident_id)
+      stub_api_response(
+        ["incident", incident_id, ""].join("/"), filename: "incident.html"
+      )
+    end
+
     private
 
     def stub_api_response(path, filename:, status: 200)

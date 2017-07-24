@@ -13,4 +13,17 @@ RSpec.describe Inciweb::Incident do
       expect(incidents.first.title).to eq("Whetstone Ridge Fire")
     end
   end
+
+  describe ".find" do
+    it "retrieves the details for an incident" do
+      incident_id = 123456
+      stub_incident_find_api_call(incident_id)
+
+      incident = Inciweb::Incident.find(incident_id)
+
+      expect(incident.size).to eq("420")
+      expect(incident.title).to eq("Potosi Fire")
+      expect(incident.incident_type).to eq("Wildfire")
+    end
+  end
 end

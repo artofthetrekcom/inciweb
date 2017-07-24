@@ -21,6 +21,17 @@ and we can retrieve those using the following interface.
 Inciweb::Incident.all
 ```
 
+### Find an Incident
+
+The incidents listing interface only provides the basic information, but in
+some rare cases we might need the status, size of affected area, or any other
+details, and that's where the `find` interface fits. Currently it will only
+return the additional details but in the future we can add more attributes to it
+
+```ruby
+Inciweb::Incident.find(incident_id)
+```
+
 ## Development
 
 We are following Sandi Metz's Rules for this gem, you can read the
