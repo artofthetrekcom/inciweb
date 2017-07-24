@@ -1,5 +1,5 @@
 require "inciweb/version"
+require "inciweb/request"
 
 module Inciweb
-  # Your code goes here...
 end
