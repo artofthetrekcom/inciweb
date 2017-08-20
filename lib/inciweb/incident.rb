@@ -20,6 +20,11 @@ module Inciweb
       new(incident_id).find
     end
 
+    def self.find_by_link(link)
+      incident_id = link.to_s.scan(/\d+/)
+      new(incident_id).find
+    end
+
     private
 
     attr_reader :id

@@ -32,6 +32,17 @@ return the additional details but in the future we can add more attributes to it
 Inciweb::Incident.find(incident_id)
 ```
 
+### Find by link
+
+The `inciweb` does not provide the incident id directly with their response, we
+can normally extract this from the `link`, but lets make it more simpler, this
+interface takes the link as an argument and then extract the id and retrieve the
+details for that specific incident.
+
+```ruby
+Inciweb::Incident.find_by_link(incident_link)
+```
+
 ## Development
 
 We are following Sandi Metz's Rules for this gem, you can read the

@@ -26,4 +26,17 @@ RSpec.describe Inciweb::Incident do
       expect(incident.incident_type).to eq("Wildfire")
     end
   end
+
+  describe ".find_by_link" do
+    it "retrieves the details by an incident link" do
+      link = "https://inciweb.nwcg.gov/incident/123456/"
+
+      stub_incident_find_api_call(123456)
+      incident = Inciweb::Incident.find_by_link(link)
+
+      expect(incident.size).to eq("420")
+      expect(incident.title).to eq("Potosi Fire")
+      expect(incident.incident_type).to eq("Wildfire")
+    end
+  end
 end
