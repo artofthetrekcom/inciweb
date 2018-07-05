@@ -1,8 +1,0 @@
-dependencies:
-  override:
-    - gem install bundler -v "~> 1.15"
-
-test:
-  override:
-    - bundle install
-    - bundle exec rspec
