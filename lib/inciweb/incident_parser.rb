@@ -60,12 +60,16 @@ module Inciweb
     end
 
     def incident_status
-      scan_document(/This incident is no longer being updated./).nil?
+      has_body? && scan_document(/This incident is no longer being updated./).nil?
     end
 
     def scan_document(pattern, css = "body", content = nil)
       content ||= document.css(css).text
       content.scan(pattern).flatten.first
+    end
+
+    def has_body?
+      document.css("body").present?
     end
   end
 end
