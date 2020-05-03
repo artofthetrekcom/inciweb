@@ -7,7 +7,7 @@ The Ruby Interface to the [Incident Information System](https://inciweb.nwcg.gov
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "inciweb", path: "lib/inciweb"
+gem 'inciweb', git: 'git@github.com:artofthetrekcom/inciweb.git'
 ```
 
 ## Usage
