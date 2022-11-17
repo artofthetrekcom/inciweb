@@ -1,7 +1,7 @@
 module Inciweb
   module FakeInciwebApi
     def stub_listing_incidents_api_call
-      stub_api_response("feeds/rss/incidents/", filename: "incidents.xml")
+      stub_api_response("incidents/rss.xml", filename: "incidents.xml")
     end
 
     def stub_incident_find_api_call(incident_id)

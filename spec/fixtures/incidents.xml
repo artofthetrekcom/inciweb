@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
+<!--
 cached data at 01:51:11
 cached id 76aaeee55f1a2cd366a5162c3f82fb79
 -->
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
   <channel>
-    <atom:link href="https://inciweb.nwcg.gov/feeds/rss/incidents/" rel="self" type="application/rss+xml" />
+    <atom:link href="https://inciweb.nwcg.gov/incidents/rss.xml" rel="self" type="application/rss+xml" />
     <title>InciWeb National Incidents</title>
     <link>https://inciweb.nwcg.gov</link>
     <description>Latest incident updates nationally</description>

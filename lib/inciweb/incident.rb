@@ -31,7 +31,7 @@ module Inciweb
 
     def fetch_incidents
       Inciweb::Response.from_xml(
-        Inciweb::Request.new("feeds/rss/incidents/").run
+        Inciweb::Request.new("incidents/rss.xml").run
       )
     end
 
