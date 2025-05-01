@@ -17,13 +17,13 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.files         = `git ls-files`.split("\n")
   spec.test_files    = `git ls-files -- {spec}/*`.split("\n")
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.7.2")
+  spec.required_ruby_version = Gem::Requirement.new(">= 3.1.7")
 
-  spec.add_dependency "activesupport", "~> 5.2.5"
+  spec.add_dependency "activesupport", "~> 6.1.7.10"
   spec.add_dependency "nokogiri", "~> 1.6"
 
-  spec.add_development_dependency "bundler", "~> 2.1.4"
-  spec.add_development_dependency "rake", "~> 13.0.3"
-  spec.add_development_dependency "rspec-rails", "~> 5.0.1"
-  spec.add_development_dependency "webmock", "~> 3.12.2"
+  spec.add_development_dependency "bundler", "~> 2.4"
+  spec.add_development_dependency "rake", "~> 13.0"
+  spec.add_development_dependency "rspec-rails", "~> 5.1"
+  spec.add_development_dependency "webmock", "~> 3.18"
 end
